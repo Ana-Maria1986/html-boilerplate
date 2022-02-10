@@ -35,3 +35,13 @@ Inainte de a dat `push` se va da un `git pull` pentru a sincroniza ce este local
 Se poate rula `git push` care va contine modificarile locale si cele de pe github
 
 end documentatie
+
+## Pentru a crea un branch nou:
+
+`git checkout -b nume-branch-fara-spaces` va crea un branch nou cu numele
+
+Acest branch exista doar localsi trebuie creat pe github.
+
+`git push --set-upstream origin nume-branch-fara-spaces` va crea pe github acest branch si va urca pe el schimbarile locale
+
+Din acest moment, se poate da `git push` normal
